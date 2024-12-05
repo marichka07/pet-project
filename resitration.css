@@ -1,0 +1,71 @@
+body, html {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+ }
+ .contant{
+  
+    border:  1px  rgba(132, 126, 126, 0.745) solid;
+    width: 350px;
+    height: 550px;
+    flex:1;
+ 
+ }
+ .login_with_facebook{
+    display: flex;
+    flex-direction: column;
+ }
+ .login_button{width: 270px;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 10px;
+    background-color:#0070f6;
+    color: white;
+    font-weight: 400;
+}
+ 
+ .form_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .form_info_text{
+    
+        width: 270px;
+        background-color:rgba(4, 16, 28, 0);
+        height: 25px;
+        margin-bottom: 8px;
+        border-radius: 5px;
+ }
+ .just_text{
+    color:  rgba(132, 126, 126, 0.745);
+ }
+.login_forgot_password{
+    color:white;
+}
+.login_button{
+    width: 270px;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 10px;
+    background-color:#0070f6;
+    color: white;
+    font-weight: 400;
+}  
+.if_you_have_account{
+    margin-top:10px;
+    border: 1px  rgba(132, 126, 126, 0.745) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 60px;
+}

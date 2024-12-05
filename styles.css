@@ -1,0 +1,154 @@
+ body, html {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ }
+ .content{
+    flex:1;
+ }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+ 
+.content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+   
+   
+
+}
+.first_section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+   
+    
+}
+    
+
+.form{
+    border:  1px  rgba(132, 126, 126, 0.745) solid;
+    width: 350px;
+    height: 400px;
+    
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.login_box_name{
+    width: 270px;
+    background-color:rgba(4, 16, 28, 0);
+    height: 25px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+.login_box_password{
+    width: 270px;
+    background-color:rgba(4, 16, 28, 0);
+    height: 25px;
+}
+.login_button{
+    width: 270px;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 10px;
+    background-color:#0070f6;
+    color: white;
+    font-weight: 400;
+    
+}
+.login_or{
+    color: aliceblue;
+}
+.login_for_facebook{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#0070f6;
+    background-image: url(imagecopy.png);
+    background-repeat: no-repeat;
+    background-position: 70px;
+    background-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.login_for_facebook:hover{
+    color: white;
+    transition: 0.3s ease-out;
+}
+.login_forgot_password{
+    color:white;
+   
+
+}
+.no_account{
+    margin-top:10px;
+    border: 1px  rgba(132, 126, 126, 0.745) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 60px;
+}
+.no_account_text{
+   color:white; 
+}
+.download{
+    color:white;
+}
+.no_account_register {
+    color:#0070f6;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.download_button_google_img{
+    width: 130px;
+    height: 35px;
+background-image:url(imagegoogleplay.png) ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 5px;
+}
+.download_button_microsoft_img{
+    background-image:url(imagemicrosoft.png) ;
+    width: 130px;
+    height: 35px;
+    margin-left: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer_text{
+    color:  rgba(132, 126, 126, 0.745);
+    padding-left: 10px;
+    margin-bottom: 500px;
+}
+.last_step{
+    margin: auto;
+    width: 800px;   
+    display: flex;  
+    justify-content: center;   
+}
+.language_select{
+    padding-right: 20px;
+}
+.last_step_text{
+    margin-left: 10px;
+    color:rgba(132, 126, 126, 0.745);
+}
