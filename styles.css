@@ -79,19 +79,22 @@ h1{
 .login_for_facebook{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#0070f6;
-    background-image:url(imgfacebookwheel.png) ;
+  background-image:url(img/imgfacebookwheel.png) ;
     background-repeat: no-repeat;
     background-position: 70px;
     background-size: 22px;
     margin-bottom: 25px;
     margin-top: 20px;
+    text-decoration: none;
 }
 .login_for_facebook:hover{
     color: white;
     transition: 0.3s ease-out;
+    
 }
 .login_forgot_password{
     color:white;
+    text-decoration: none;
    
 
 }
@@ -114,18 +117,19 @@ h1{
     color:#0070f6;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
+    text-decoration: none;
 }
 .download_button_google_img{
     width: 130px;
     height: 35px;
-background-image:url(imagegoogleplay.png) ;
+background-image:url(img/imagegoogleplay.png) ;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 border-radius: 5px;
 }
 .download_button_microsoft_img{
-    background-image:url(imagemicrosoft.png) ;
+  background-image:url(img/imagemicrosoft.png) ;
     width: 130px;
     height: 35px;
     margin-left: 8px;
@@ -138,6 +142,7 @@ border-radius: 5px;
     color:  rgba(132, 126, 126, 0.745);
     padding-left: 10px;
     margin-bottom: 500px;
+    text-decoration: none;
 }
 .last_step{
     margin: auto;

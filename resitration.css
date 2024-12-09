@@ -11,24 +11,37 @@ body, html {
     color: white;
  }
  .contant{
-  
-    border:  1px  rgba(132, 126, 126, 0.745) solid;
+   border:  1px  rgba(132, 126, 126, 0.745) solid;
     width: 350px;
-    height: 550px;
+    height: auto;
     flex:1;
  
+ }
+ .first_text{
+   font-size: 20px;
+   color:  rgba(132, 126, 126, 0.745)
  }
  .login_with_facebook{
     display: flex;
     flex-direction: column;
  }
- .login_button{width: 270px;
+ .login_button{
+    width: 270px;
     border-radius: 10px;
     height: 35px;
     margin-top: 10px;
     background-color:#0070f6;
     color: white;
     font-weight: 400;
+    margin-bottom: 0.5rem;
+    
+}
+.login_with_facebook button {
+   background-image:url(imgfacebooksquare.png) ;
+   background-size: 16px;
+   background-repeat: no-repeat;
+   background-position: 40px;
+   background-position-y:center;
 }
  
  .form_info{
@@ -50,6 +63,7 @@ body, html {
  }
 .login_forgot_password{
     color:white;
+    text-decoration: none;
 }
 .login_button{
     width: 270px;
@@ -63,9 +77,52 @@ body, html {
 .if_you_have_account{
     margin-top:10px;
     border: 1px  rgba(132, 126, 126, 0.745) solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     width: 350px;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.if_you_have_account a{
+   color:#0070f6;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 14px;
+   text-decoration: none;
+}
+.download_button_google_img{
+   width: 130px;
+   height: 35px;
+background-image:url(img/imagegoogleplay.png) ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 5px;}
+.download_button_microsoft_img{
+   background-image:url(img/imagemicrosoft.png) ;
+     width: 130px;
+     height: 35px;
+     margin-left: 8px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+ .footer_text{
+   color:  rgba(132, 126, 126, 0.745);
+   padding-left: 10px;
+   margin-bottom: 500px;
+   text-decoration: none;
+}
+.last_step{
+   margin: auto;
+   width: 800px;   
+   display: flex;  
+   justify-content: center;   
+}
+.language_select{
+   padding-right: 20px;
+}
+.last_step_text{
+   margin-left: 10px;
+   color:rgba(132, 126, 126, 0.745);
 }
